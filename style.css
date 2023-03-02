@@ -1,0 +1,130 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+}
+.container {
+	max-width: 960px;
+	width: 80%;
+	margin: 0 auto;
+}
+.header-area {
+	background: #79DEF2;
+	overflow: hidden;
+}
+.header-top {
+	overflow: hidden;
+	clear: both;
+}
+.logo-area {
+	float: left;
+	width: 30%;
+	overflow: hidden;
+}
+.menu-area ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+	margin-top: 20px;
+}
+.menu-area ul li {
+	float: left;
+	margin-right: 15px;
+}
+.menu-area ul li a {
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 7px 15px;
+	display: block;
+	color: black;
+	border-radius: 4px;
+}
+.menu-area ul .current a,
+.menu-area ul li:hover a {
+	background: #5AA000;
+}
+.lab-area {
+	width: 100%;
+	text-align: center;
+	margin: 40px 0;
+}
+.lab-area h1, h2 {
+	margin: 15 px 0;
+}
+.srial {
+	float: right;
+	margin: 20px 0;
+}
+.srial .button {
+	background: red;
+	color: #FFFFFF;
+	text-transform: capitalize;
+	text-decoration: none;
+	padding: 8px 20px;
+	border-bottom: 3px solid #ff7675; 
+	border-radius: 4px;
+}
+.srial .button:hover {
+	border-bottom: 3px solid #ff7675;
+	background: #d63031;
+}
+.lab-area h2 {
+	background: #5AA000;
+	color: #FFFFFF;
+	display: inline;
+	padding: 2px 5px;
+	border-radius: 3px;
+}
+.lab-area p {
+	margin-bottom: 30px;
+}
+.button {
+	background: #5AA000;
+	color: #FFFFFF;
+	text-transform: capitalize;
+	text-decoration: none;
+	padding: 8px 20px;
+	border-bottom: 3px solid #439038; 
+	border-radius: 4px;
+}
+.button:hover {
+	border-bottom: 3px solid #5AA000;
+	background: #1BA7F8;
+}
+
+/* services-area */
+
+.services-area {
+	background: #79B8F4;
+	overflow: hidden;
+	text-align: center;
+	padding: 60px 0;
+	overflow: hidden;
+}
+.home-service h2, h3 {
+	text-transform: uppercase;
+}
+.home-service hr {
+	width: 80px;
+}
+.col-4 {
+	width: 25%;
+	float: left;
+	overflow: hidden;
+}
+
+/* physician-area */
+
+.about-area {
+	padding: 60px 0;
+	overflow: hidden;
+	background: #17c0eb;
+}
+
+.physician {
+	width: 47%;
+	float: left;
+	overflow: hidden;
+	margin-right: 6%;
+}
